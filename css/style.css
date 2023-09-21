@@ -1,0 +1,406 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+ *::before,
+*::after {
+box-sizing: inherit;
+} 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: local('Jost-Regular'),
+     url('../fonts/jost-regular.woff2') format("woff2"),
+     url("../fonts/jost-regular.woff") format(woff);
+     font-weight: 400;
+     font-style: normal;
+     font-display: swap;
+
+}
+
+
+@font-face {
+    font-family: 'Jost';
+    src: local('adobemyungjostd-medium'),
+     url('../fonts/adobemyungjostd-medium.woff2') format("woff2"),
+     url("../fonts/adobemyungjostd-medium.woff") format(woff);
+     font-weight: 300;
+     font-style: normal;
+     font-display: swap;
+
+}
+body {
+    min-width: 1440px;
+    font-family: "jost" sans-serif;
+    background-color: #eee;
+}
+.container {
+    width: 1104px;
+    padding: 0;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.flex {
+    display: flex;
+}
+p {
+    margin: 0;
+}
+.tittle {
+    color: #222;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.btn {
+    padding: 11px 36px;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+/* header */
+
+.header-logo {
+    margin: 22px 497px 23px 0px;
+}
+.header-form-search {
+    margin: 40px 0 41px 250px;
+}
+.input-search {
+    border: none;
+    padding: 11px 19px 11px 24px;
+}
+/* паддинги для импута */
+
+
+/* navigation */
+.container-nav {
+    justify-content: flex-end;
+    margin-bottom: 80px;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 40px;
+}
+.nav-link {
+    color: #222;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.nav-link-header {
+    color: #F2B058;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-bottom: 3px solid #F2B058;
+}
+.nav-contacts-link {
+    color: #222;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.nav-link-tel {
+    margin-left: 77px;
+}
+.nav-link-location {
+    margin-left: 24px;
+}
+
+/* about-me */
+.container-about-me{
+    background-image: url("../img/photo_2023-09-09_15-14-51\ 1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+   
+    margin-bottom: 160px;
+}
+.heading {
+    color: #222;
+    font-family: Jost;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+.heading-desc {
+    color: #777;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+.abouy-me-list {
+    width: 701px;
+}
+.about-me-desc {
+    color: #222;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    background-image: url("../img/image\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding-left: 46px;
+
+}
+
+/* my-work */
+.title-my-work {
+    text-align: center;
+}
+.my-work-list {
+    justify-content: space-between;
+}
+.my-work-img {
+    width: 140px;
+    margin-bottom: 16px;
+}
+.my-work-desc {
+    color: #222;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+/* rings */
+
+.tittle-rings {
+    color: #222;
+    font-family: Jost;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.rings-list {
+    justify-content: space-between;
+}
+.rings-item {
+    width: 228px;
+    background-image: url("../img/Без\ имени-1\ 2.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 266px;
+}
+.rings-item-tittle {
+    color: #222;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+.rings-desc {
+    color: #222;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.btn-rings-desc {
+    width: 228px;
+    height: 45px;
+    background-color: #222;
+    border-radius: 4px;
+    padding: 11px 36px;
+    color: #FFF;
+    margin-bottom: 64px;
+}
+.btn-rings{
+    display: block;
+    background-color:#E5E5E5;
+    color: #222;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+/* consultation */
+
+.consultation {
+    background-image: url("../img/image\ 12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-consultation {
+    flex-direction: column;
+    width: 520px;
+}
+.tittle-consultation {
+    color: #222;
+    font-family: Jost;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 80px;
+    margin-bottom: 31px;
+}
+.input-consultation {
+    margin-bottom: 24px;
+    padding: 11px 16px;
+}
+.btn-consultation {
+    color: #FFF;
+    background-color: #222;
+    margin-bottom: 36px;
+}
+.btn-whatsapp {
+    color: #222;
+    background-color: transparent;
+    margin-bottom: 80px;
+}
+
+/* blog */
+
+.tittle-blog {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 64px;
+}
+.blog-list {
+    justify-content: space-between;
+}
+.blog-item {
+    width: 325px;
+    background-image: url("../img/image\ 10.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 194.5px;
+}
+.blog-item-tittle {
+    color: #222;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+.blog-item-desc {
+    color: #222;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.blog-btn {
+    width: 325px;
+    background-color: transparent;
+    margin-bottom: 80px;
+}
+
+/* footer */
+.footer {
+    background-color: #222;
+}
+.footer-container {
+    color: #FFF;
+}
+.footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.footer-person {
+    flex-direction: column;
+}
+.footer-work {
+    flex-direction: column;
+}
+.footer-link {
+    flex-direction: column;
+}
+.footer-logo {
+    width: 218px;
+    height: 98px;
+    margin-top: 80px;
+    margin-bottom: 56px;
+}
+.footer-tittle {
+    color: #FFF;
+   
+}
+.footer-desc {
+    color: #FFF;
+    margin-bottom: 80px;
+}
+.footer-tittle-list {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 16px;
+}
+.footer-desc {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.footer-desc:not(:last-child) {
+    margin-bottom: 16px;
+}
+.footer-text {
+    border-top: 1px solid #E5E5E5;
+    color: #E5E5E5;
+    text-align: justify;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 140% */
+    padding-top: 29px;
+    padding-bottom: 29px;
+    
+}
