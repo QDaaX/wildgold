@@ -44,9 +44,8 @@ body {
 }
 .container {
     width: 1104px;
-    padding: 0;
     margin: 0 auto;
-    /* background-color: aqua; */
+    padding: 0;
 }
 .list-reset {
     margin: 0;
@@ -60,21 +59,24 @@ p {
     margin: 0;
 }
 .tittle {
-    color: #222;
-    font-family: Jost;
-    font-size: 40px;
     font-style: normal;
+    font-size: 40px;
     font-weight: 400;
     line-height: normal;
+    font-family: Jost;
+    color: #222;
     
 }
 .btn {
     padding: 11px 36px;
-    font-family: Jost;
-    font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-size: 16px;
     line-height: normal;
+    font-weight: 500;
+    font-family: Jost;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
 }
 
 
@@ -85,11 +87,13 @@ p {
 }
 .header-form-search {
     margin: 40px 0 41px 250px;
+    border: none;
 }
 .input-search {
-    border: none;
     padding: 11px 19px 11px 24px;
 }
+    
+
 /* паддинги для импута */
 
 
@@ -103,29 +107,30 @@ p {
     margin-right: 40px;
 }
 .nav-link {
-    color: #222;
-    font-family: Jost;
-    font-size: 14px;
     font-style: normal;
+    font-size: 14px;
     font-weight: 500;
     line-height: normal;
+    font-family: Jost;
+    text-transform: uppercase;
+    color: #222;
 }
 .nav-link-header {
-    color: #F2B058;
     font-family: Jost;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    color: #F2B058;
     border-bottom: 3px solid #F2B058;
 }
 .nav-contacts-link {
-    color: #222;
     font-family: Jost;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    color: #222;
 }
 .nav-link-tel {
     margin-left: 77px;
@@ -136,47 +141,45 @@ p {
 
 /* about-me */
 .container-about-me{
+    margin-bottom: 160px;
     background-image: url("../img/photo_2023-09-09_15-14-51\ 1.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
-   
-    margin-bottom: 160px;
 }
 .heading {
-    color: #222;
+    margin-bottom: 12px;
     font-family: Jost;
     font-size: 56px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-bottom: 12px;
+    color: #222;
 }
 .heading-desc {
-    color: #777;
+    margin-bottom: 40px;
     font-family: Jost;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 40px;
+    color: #777;
 }
 .abouy-me-list {
     width: 701px;
 }
 .about-me-desc {
-    color: #222;
+    margin-bottom: 20px;
+    padding-left: 46px;
     font-family: Jost;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 20px;
+    color: #222;
     background-image: url("../img/image\ 1.svg");
     background-repeat: no-repeat;
     background-size: 30px;
-    padding-left: 46px;
-
 }
 
 /* my-work */
@@ -188,72 +191,101 @@ p {
 }
 .my-work-img {
     width: 140px;
-    margin-bottom: 16px;
+    padding-top: 156px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 140px;
+    
+    
+   
+}
+.my-work-img-1 {
+    background-image: url("../img/div.category-image.png");
+    
+}
+.my-work-img-4 {
+    background-image: url("../img/div.category-image\(3\).png");
+}
+
+.my-work-img-2  {
+    background-image: url("../img/div.category-image\(1\).png");
+}
+.my-work-img-3 {
+    background-image: url("../img/div.category-image\(2\).png");
+}
+.my-work-img-5 {
+    background-image: url("../img/div.category-image\(4\).png");
+}
+.my-work-img-6 { 
+    background-image: url("../img/div.category-image\(5\).png");
 }
 .my-work-desc {
-    color: #222;
     font-family: Jost;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-align: center;
+    text-transform: uppercase;
+    color: #222;
 }
 
 /* rings */
 
 .tittle-rings {
-    color: #222;
     font-family: Jost;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-align: center;
+    color: #222;
 }
 .rings-list {
     justify-content: space-between;
 }
 .rings-item {
     width: 228px;
+    padding-top: 266px;
     background-image: url("../img/Без\ имени-1\ 2.png");
     background-repeat: no-repeat;
     background-position: top;
-    padding-top: 266px;
 }
 .rings-item-tittle {
-    color: #222;
+    margin-bottom: 17px;
     font-family: Jost;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-bottom: 17px;
+    text-transform: uppercase;
+    color: #222;
 }
 .rings-desc {
-    color: #222;
+    margin-bottom: 16px;
     font-family: Jost;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 16px;
+    color: #222;
 }
 .btn-rings-desc {
     width: 228px;
     height: 45px;
-    background-color: #222;
-    border-radius: 4px;
+    margin-bottom: 64px;
     padding: 11px 36px;
     color: #FFF;
-    margin-bottom: 64px;
+    background-color: #222;
+    border-radius: 4px;
 }
 .btn-rings{
     display: block;
-    background-color:#E5E5E5;
-    color: #222;
     margin: 0 auto;
     margin-bottom: 80px;
+    color: #222;
+    background-color: transparent;
+    border: 1px solid #222;
 }
 
 /* consultation */
@@ -268,69 +300,73 @@ p {
     width: 520px;
 }
 .tittle-consultation {
-    color: #222;
+    margin-top: 80px;
+    margin-bottom: 31px;
     font-family: Jost;
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-top: 80px;
-    margin-bottom: 31px;
+    color: #222;
 }
 .input-consultation {
     margin-bottom: 24px;
     padding: 11px 16px;
 }
 .btn-consultation {
+    margin-bottom: 36px;
     color: #FFF;
     background-color: #222;
-    margin-bottom: 36px;
 }
 .btn-whatsapp {
+    margin-bottom: 80px;
     color: #222;
     background-color: transparent;
-    margin-bottom: 80px;
+    border: 1px solid #222;
 }
 
 /* blog */
 
 .tittle-blog {
-    text-align: center;
     margin-top: 80px;
     margin-bottom: 64px;
+    text-align: center;
 }
 .blog-list {
     justify-content: space-between;
 }
 .blog-item {
     width: 325px;
+    padding-top: 194.5px;
     background-image: url("../img/image\ 10.png");
     background-repeat: no-repeat;
     background-position: top;
-    padding-top: 194.5px;
 }
 .blog-item-tittle {
-    color: #222;
+    margin-bottom: 17px;
     font-family: Jost;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-bottom: 17px;
+    text-transform: uppercase;
+    color: #222;
 }
 .blog-item-desc {
-    color: #222;
+    margin-bottom: 16px;
     font-family: Jost;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 16px;
+    color: #222;
+    
 }
 .blog-btn {
     width: 325px;
-    background-color: transparent;
     margin-bottom: 80px;
+    background-color: transparent;
+    border: 1px solid #222;
 }
 
 /* footer */
@@ -361,46 +397,50 @@ p {
     margin-bottom: 56px;
 }
 .footer-tittle {
+    height: 46px;
+    margin-top: 0;
+    margin-bottom: 4px;
     color: #FFF;
-   
 }
 .footer-desc {
-    color: #FFF;
+    height: 23px;
     margin-bottom: 80px;
+    color: #FFF;
 }
 .footer-tittle-list {
-    color: #FFF;
+    margin-top: 80px;
+    margin-bottom: 16px;
     font-family: Jost;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
-    margin-top: 80px;
-    margin-bottom: 16px;
+    color: #FFF;
+}
+.footer-item-work:not(:last-child) {
+    margin-bottom: 8px;
+}
+.footer-item-link:not(:last-child) {
+    margin-bottom: 8px;
 }
 .footer-desc {
-    color: #FFF;
     font-family: Jost;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
+    color: #FFF;
 }
-.footer-desc:not(:last-child) {
-    margin-bottom: 16px;
-}
+
 .footer-text {
-    border-top: 1px solid #E5E5E5;
-    color: #E5E5E5;
+    padding-top: 29px;
+    padding-bottom: 29px;
     text-align: justify;
-    font-family: Jost;
     font-size: 20px;
     font-style: normal;
     font-weight: 300;
-    line-height: 28px; /* 140% */
-    padding-top: 29px;
-    padding-bottom: 29px;
-    
+    line-height: 28px;
+    color: #E5E5E5;
+    border-top: 1px solid #E5E5E5;
 }
